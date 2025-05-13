@@ -1,4 +1,11 @@
-h1 {
-  color: red;
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  display: flex;
+  width: 100%;
+  background-color: red;
+  justify-content: space-between;
 }
