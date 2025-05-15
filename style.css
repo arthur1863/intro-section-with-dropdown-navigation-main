@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: Epilogue;
+  font-weight: 500;
+}
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -26,28 +31,49 @@
   font-size: 1.5em;
   cursor: pointer;
 }
+.expand-down {
+  display: inline-block;
+  margin-left: 10px;
+}
 
 @media (max-width: 768px) {
   .nav-links {
     display: none;
     flex-direction: column;
     position: absolute;
-    justify-content: space-around;
     top: 50px;
     right: 1em;
     width: 150px;
-    height: 200px;
-    color: black;
+    height: 100%;
+    margin-right: 3em;
   }
   .nav-links a {
-    font-size: 20px;
+    font-size: 18px;
+    color: hsl(0, 0%, 41%);
+    display: inline-block;
+    margin-top: 1em;
+    letter-spacing: 1px;
   }
 
   .dropdown {
     display: block;
   }
-
   .nav-links.active {
     display: flex;
+  }
+  .login-container {
+    width: 180px;
+  }
+  .login-container a {
+    display: block;
+    text-align: center;
+    margin-top: 2em;
+    font-size: 16px;
+  }
+  .login-container :nth-child(2) {
+    border: 1px solid hsl(0, 3%, 76%);
+    padding: 4px;
+    border-radius: 5px;
+    width: 100%;
   }
 }

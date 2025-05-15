@@ -14,6 +14,9 @@
 
     <title>Frontend Mentor | Intro section with dropdown navigation</title>
     <link rel="stylesheet" href="style.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap");
+    </style>
   </head>
   <body>
     <nav class="navbar">
@@ -21,13 +24,32 @@
         <img src="/images/logo.svg" alt="logo image" />
       </div>
       <ul class="nav-links">
-        <li><a href="">Home </a></li>
+        <li>
+          <a href="">Features </a>
+          <img
+            class="expand-down"
+            src="/images/icon-arrow-down.svg"
+            alt="expand"
+          />
+        </li>
+        <li>
+          <a href="">Company</a
+          ><img
+            class="expand-down"
+            src="/images/icon-arrow-down.svg"
+            alt="expand"
+          />
+        </li>
+        <li><a href="">Carrers</a></li>
         <li><a href="">About</a></li>
-        <li><a href="">Services</a></li>
-        <li><a href="">Contact</a></li>
+        <div class="login-container">
+          <a href="/login">Login</a>
+          <a href="/register">Register</a>
+        </div>
       </ul>
+
       <div class="dropdown">
-        <img src="/images/icon-menu.svg" alt="" />
+        <img class="dropIcon" src="/images/icon-menu.svg" alt="" />
       </div>
     </nav>
 
