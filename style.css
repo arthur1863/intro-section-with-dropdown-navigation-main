@@ -36,6 +36,21 @@ body {
   margin-left: 10px;
 }
 
+.hero-title {
+  text-align: center;
+  margin: 1em 0;
+}
+
+.hero-description {
+  text-align: center;
+  color: hsl(0, 0%, 41%);
+}
+
+.hero-image {
+  display: block;
+  width: 100%;
+}
+
 @media (max-width: 768px) {
   .nav-links {
     display: none;
