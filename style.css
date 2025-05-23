@@ -41,7 +41,7 @@ body {
 
 .hero-title {
   text-align: center;
-  margin: 1em 0;
+  margin: 1em 0 0.5em 0;
 }
 
 .hero {
@@ -58,7 +58,7 @@ body {
   color: hsl(0, 0%, 41%);
 }
 
-.hero-image {
+.hero-image-mobile {
   width: 100%;
   height: auto;
   overflow: hidden;
@@ -76,7 +76,7 @@ body {
     right: 1px;
     width: 65%;
     max-width: 250px;
-    min-height: 100%;
+    /* min-height: 100%; */
     /* opacity: 1; */
     background-color: white;
   }
@@ -127,7 +127,7 @@ body {
     width: 9em;
     padding: 15px;
     border-radius: 10px;
-    margin: 1em auto;
+    margin: 2em auto;
     text-align: center;
   }
   .companies {
@@ -135,5 +135,11 @@ body {
     justify-content: space-between;
     width: 90%;
     margin: 0 auto;
+  }
+  .hero-description {
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 1.5em;
   }
 }
