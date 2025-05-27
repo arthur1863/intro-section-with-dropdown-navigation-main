@@ -137,9 +137,22 @@ body {
     flex-wrap: wrap;
   }
   .hero-description {
-    width: 80%;
+    width: 90%;
     text-align: center;
     margin: 0 auto;
     line-height: 1.5em;
+  }
+
+  .features {
+    position: relative;
+  }
+  .features-expand li {
+    list-style: none;
+    width: 50%;
+    margin: 1em auto;
+    text-align: center;
+    display: flex;
+    gap: 1em;
+    color: hsl(0, 0%, 41%);
   }
 }
