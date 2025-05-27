@@ -155,4 +155,12 @@ body {
     gap: 1em;
     color: hsl(0, 0%, 41%);
   }
+
+  .features-expand {
+    display: none;
+  }
+
+  .show-features {
+    display: block;
+  }
 }
