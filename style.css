@@ -163,4 +163,26 @@ body {
   .show-features {
     display: block;
   }
+
+  .company {
+    position: relative;
+  }
+  .company-expand li {
+    list-style: none;
+    width: 50%;
+    margin: 2em auto;
+    text-align: center;
+    display: flex;
+    gap: 1em;
+    color: hsl(0, 0%, 41%);
+    font-size: large;
+  }
+
+  .company-expand {
+    display: none;
+  }
+
+  .show-company {
+    display: block;
+  }
 }
