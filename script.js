@@ -26,3 +26,5 @@ companyBtn.addEventListener("click", (e) => {
   companyExpand.classList.toggle("show-company");
   console.log("hallo");
 });
+
+const user = "test";
